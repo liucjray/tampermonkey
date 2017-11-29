@@ -15,4 +15,5 @@ $(function(){
     if (isExistFinishBtn) { console.log('execFinishBtnClick');
         setTimeout(function(){ $finishBtn.click(); }, 1000);
     }
+    console.log(123);
 });
